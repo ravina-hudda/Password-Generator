@@ -2,13 +2,61 @@
 body{
   background-color: black;
   color: white;
+  align-items: center;
+  display: flex  ;
+  justify-content: center; 
+  font-size: large; 
+  /* background-image: url("https://www.shutterstock.com/shutterstock/photos/2188146773/display_1500/stock-photo-portrait-of-a-male-adult-lion-looking-at-the-camera-panthera-leo-on-black-2188146773.jpg"); */
+  background-size: cover;
 }
 
-
+lable {
+  font-size: larger;
+}
 .container{
   background-color: grey;
   border-radius: 5px;
+  margin: 20px 20px;
+  width: 95%;
 }
+.passContainer{
+  margin: 20px 20px;
+  padding-top: 20px;
+  /* width: 100%; */
+}
+.passInput{
+  font-size: larger;
+  padding-left: 10px;
+  width: 86%;
+  box-shadow: 0cqw;
+}
+.btn{
+  font-size: larger;
+  color: #0d0d0d;
+  background-color: #007bff;
+  border: 1px solid transparent;
+  border-radius: .25rem;      
+}
+.btn:hover{
+  cursor: pointer;
+  background-color: #1975d7;
+  
+  border: solid rgb(94, 94, 237) 2px  ;
+}
+.depContainer{
+  display: flex;
+  width: 100%;
+  /* justify-content: center; */
+}
+.subDepContainer{
+  margin: 9px 30px;
+  font-size: large;
+  /* width: 100%; */
+}
+/* .inputs{
+  width: 28%;
+  height: 28%;
+} */
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -17,39 +65,9 @@ body{
 }
 
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
 
-.card {
-  padding: 2em;
-}
 
-.read-the-docs {
-  color: #888;
-}
+
 
